@@ -1,0 +1,25 @@
+.navbar-menu {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    position: top;
+    top:100%;
+    z-index: 2;
+}
+
+.navbar-logo {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.navbar-item{
+    justify-content:space-between;
+    width: 60%;
+    height: 60px;
+}
