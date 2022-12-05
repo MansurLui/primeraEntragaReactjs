@@ -1,29 +1,27 @@
-.sidebar{
+.sidebar {
     position: fixed;
     top: 0;
     right: 0;
-    width: 20vh;
-    background-color: #3a3a3a;
+    width: 20vw;
+    background-color: #708AFF;
     padding: 2rem;
-    z-index: 3;
+    z-index: 1;
     height: 100vh;
     transition: all 0.5s ease-in-out;
 }
-
-.close-button-container{
+.close-button-container {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     width: 100%;
 }
-
-.button-close{
-    width: 25px;
-    height: 25px;
+.close-button {
+    width: 30px;
+    height: 30px;
     cursor: pointer;
-    background-color: transparent;
+    background: transparent;
     border: none;
-    color: red;
-    font-size: 25px;
+    color: #ffffff;
+    font-size: 1.2rem;
     font-weight: bold;
 }
